@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+        <title>IRIS FLOWER CLASSIFICATION</title>
+        <link rel= "stylesheet" href='static/styles.css'>
+    </head>
+
+    <body>
+        <h3>IRIS FLOWER CLASSIFICATION</h3>
+        
+        <form action="/predict" method="post">
+        <label for="spl">Sepal Length(CM):</label>
+        <input type="text" name="spl" id="spl" required><br><br>
+        <label for="spw">Sepal Width(CM):</label>
+        <input type="text" name="spw" id="spw" required><br><br>
+        <label for="ptl">Petal Length(CM):</label>
+        <input type="text" name="ptl" id="ptl" required><br><br>
+        <label for="ptw">Petal Width(CM):</label>
+        <input type="text" name="ptw" id="ptw" required><br><br>
+
+        <input type="submit" value="Predict" class="button-green" >
+        </form>
+
+        {% if prediction %}
+        <h1 style="color:green;" align = center >{{prediction}}</h1>
+        {% endif %}
+
+        <div class="centered-container">
+            <a href="https://github.com/usmanbvp/IRIS-Flower-Classification.git" >Click to get Source Code</a>
+        </div>
+        
+        
+    </body>
+</html>
