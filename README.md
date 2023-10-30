@@ -13,9 +13,7 @@ This project classifies Iris flowers into different species based on their sepal
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## About the Project
 
