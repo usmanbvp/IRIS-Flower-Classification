@@ -38,7 +38,7 @@ You need to have Python installed on your system. If you haven't already, you ca
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/iris-flower-classification.git``````
+   git clone https://github.com/usmanbvp/iris-flower-classification.git``````
 2. Change directory:
 
   ```cd iris-flower-classification```
